@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#container {
+    width: 600px;
+}
+#left, #right {
+    width: 48%;
+    display: inline-block;
+    text-align: right;
+    vertical-align: top;
+    padding: 3px;
+}
+#right div {
+    border: 1px solid black;
+    text-align: center;
+    width: 95%;
+    height: 150px;
+    display:table;
+    margin-bottom: 10px;
+}
+#right h1 {
+    vertical-align: middle;
+    display: table-cell;
+}
+#dTitle {
+    text-align: left;
+}
+p, button {
+    margin: 10px 0px;
+}
+form {
+    display: inline-block;
+}
+textarea {
+    width: 100%;
+}
+button {
+    display: block;
+}
